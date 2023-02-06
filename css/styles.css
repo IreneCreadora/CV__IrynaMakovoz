@@ -211,6 +211,22 @@ body {
   line-height: 24px;
   color: var(--secondary-text-color);
 }
+
+.info__list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.info__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--white-color);
+
+  margin-right: 8px;
+}
 .tech-skills {
   margin-left: 40px;
   margin-bottom: 50px;
