@@ -20,10 +20,10 @@ body {
   background: var(--white-color);
   max-width: 600px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 70px 90px;
+  padding: 40px 70px;
 }
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 .about__position {
   font-style: normal;
@@ -31,7 +31,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: var(--sidebar-bg-color);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .about__name {
   font-style: normal;
@@ -39,7 +39,7 @@ body {
   font-size: 45px;
   line-height: 55px;
   color: var(--primary-text-color);
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 .about__discription {
   font-style: normal;
@@ -47,7 +47,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: var(--primary-text-color);
-  width: 550px;
+  width: 600px;
 }
 .projects {
   margin-bottom: 50px;
@@ -136,6 +136,7 @@ body {
   margin-left: 15px;
 }
 .compamy__item {
+  max-width: 560px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
