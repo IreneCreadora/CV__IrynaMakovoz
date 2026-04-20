@@ -80,12 +80,15 @@ body {
   color: var(--sidebar-bg-color);
   text-decoration: none;
 }
+.projects__link:hover {
+  text-decoration: underline;
+}
 .projects__discription {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   /* margin-bottom: 10px; */
 }
 .work-experiens {
@@ -185,48 +188,73 @@ body {
   width: 370px;
 }
 .contacts {
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-bottom: 50px;
+  margin: 50px 0 50px 40px;
 }
+
 .sidebar__title {
   color: var(--white-color);
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
+
+.contacts__row {
+  margin: 0 0 8px 0;
+}
+
 .contact__type {
+  display: inline-block;
+  min-width: 52px;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   color: var(--white-color);
-  margin-right: 5px;
+  margin-right: 6px;
 }
+
 .contact__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: var(--white-color);
+  text-decoration: underline;
 }
 
 .info__list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
   padding: 0;
+  margin: 14px 0 0 0;
   list-style: none;
 }
 
 .info__item {
+  display: inline-block;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: var(--white-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 
-  margin-right: 8px;
+.info__item:hover,
+.info__item:focus {
+  color: var(--secondary-text-color);
+  text-decoration: underline;
 }
 .tech-skills {
   margin-left: 40px;
@@ -247,18 +275,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-}
-.soft-skills {
-  margin-left: 40px;
-  margin-bottom: 50px;
-}
-.soft-skills__list {
-  color: var(--white-color);
-  padding: 0px;
-  margin-left: 15px;
-}
-.soft-skills__item {
-  color: var(--accent-color);
 }
 
 .language-skills {
